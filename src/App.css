@@ -28,6 +28,46 @@
   color: #61dafb;
 }
 
+/*  */
+
+.btn-wrapper button{background-color: #000;
+color: #fff;
+border-radius: 4px;
+padding: 10px;
+border: 0px;
+box-shadow: #333 0px 1px 5px;
+}
+
+.img-wrapper img {
+  width: 100px;
+  height: 80px;
+  margin-top: -10px;
+}
+
+.cart-wrapper{
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+ 
+.item {
+  float: left;
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+
+.add-to-cart {
+  top: 1%;
+  right: 1%;
+  position: absolute;
+  width: 35px;
+}
+
+/*  */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
